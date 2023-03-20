@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+#bigName {
+    font-size: xx-large;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+    #bigName {
+        font-size: xx-large;
+        margin: 5px;
+        display: block;
+    }
+}
+
+nav {
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    font-size: x-large;
+    padding: 0;
+    margin: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 5px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#currentPageLink {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    vertical-align: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    max-width: 700px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-decoration: underline;
+}
+
+.copyIcon {
+    width: 20px;
+    background-color: white;
+    padding: 3px;
+}
+
+#headshot {
+    max-width: 300px;
+    display: flex;
+}
